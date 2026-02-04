@@ -1,3 +1,43 @@
+<<<<<<< HEAD
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Django secret settings
+.env
+.env.*
+
+# Ignore migrations (keep __init__.py)
+migrations/
+!migrations/__init__.py
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# React environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +245,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+>>>>>>> ae334d4ae59bd2b953de71e588b7c69cb0237598
